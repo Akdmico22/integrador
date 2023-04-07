@@ -10,7 +10,225 @@
 
 body {
     text-transform: capitalize;
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto';
+    padding-bottom: 3rem;
+    min-height: 100vh;    
 }
+a{
+    text-decoration: none;
+    color: #d4d4ac;
+}
+header{
+    display: flex;
+    min-height: 100px;
+    min-width: 100px;
+    width: 100%;
+    background-color: #207cce ;
+    justify-content: space-between; 
+    align-items: center;   
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.logo img:hover{
+    transform: scale(1.3);
+}
+.ml-10px{
+    margin-left: 20px;
+    transition: all 3s;
+    text-decoration: none;
+
+}
+.ml-10px:hover{
+    transform: scale(1.3);
+}
+
+nav a{
+   color: aliceblue;
+   font-size: 18px;
+   padding: 10px 25px;
+   border-radius: 50px;
+   transition: 0.2s;
+   margin: 0 5px;
+
+   left: 100%;
+
+}
+
+nav a:hover{
+    color: #11101b;
+    background: aliceblue;
+    
+}
+.btn-menu{
+    display: none;
+    font-size: 40px;
+    color:#11101b;
+    color:white;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    background-color:transparent;
+    cursor: pointer;
+    border-color:transparent;
+    border-radius: 5px;
+
+
+}
+
+.main{
+    min-height: 100px;
+    min-width: 100px;
+    width: 100%;
+    margin-top: 90px;
+}
+.caja{ 
+    width: 200px;
+    height: 200px;
+    background-color: #207cce;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 30px;
+    align-items: center;
+   
+ }
+
+ .caja2{
+    width: 415px;
+    height: 415px;
+    background-color: #207cce;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+ }
+
+ 
+ 
+
+ .formulario label{
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+   
+    
+ }
+
+ .caja input{
+    margin-top: 15px;
+ }
+
+ .formulario input{
+    border-radius: 5px;
+    margin-top: 10px;
+ }
+
+.imgarg{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.imgcari{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.imagencataratas{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+}
+main{
+    display: flex;
+
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    
+
+}
+
+.seccion2{
+    margin: 10px;
+}
+ .coti{
+    width: 250px;
+    height: 30px;
+    background-color: rgba(6, 6, 148, 0.772);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+ }
+
+ .user{
+    width: 130px;
+    height: 30px;
+    background-color: rgba(197, 197, 225, 0.845);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    text-align: center;
+ }
+
+ .contra{
+    width: 130px;
+    height: 30px;
+    background-color: rgba(197, 197, 225, 0.845);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    text-align: center;
+
+ }
+
+ .ingresar{
+    width: 130px;
+    height: 30px;
+    background-color: rgba(6, 6, 148, 0.772);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+ }
+
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -148,234 +366,26 @@ body {
         width: 100%;
         margin-bottom: 30px;
     }
-}
 
-body {
-    text-transform: capitalize;
-    margin: 0;
-    background-color: white;
-    font-family: 'Roboto';
-    padding-bottom: 3rem;
-    min-height: 100vh;    
-}
-
-a{
-    text-decoration: none;
-    color: #d4d4ac;
-}
-
-header{
-    display: flex;
-    min-height: 100px;
-    background-color: #207cce ;
-    justify-content: space-between; 
-    align-items: center;   
-    padding: 10px;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    
-    
-}
-.logo img{
-    width: 90px;
-    height: 90px;
-    cursor:pointer;
-    transition: all 0.3s;
-}
-
-.logo img:hover{
-    transform: scale(1.3);
-}
-.ml-10px{
-   
-    margin-left: 20px;
-    
-}
-
-nav a{
-   color: aliceblue;
-   font-size: 18px;
-   padding: 10px 25px;
-   border-radius: 50px;
-   transition: 0.2s;
-   margin: 0 5px;
-}
-
-nav a:hover{
-    color: #11101b;
-    background: aliceblue;
-    
-}
-
-.btn-menu{
-    display: none;
-    font-size: 40px;
-    color:#11101b;
-    float: right;
-    line-height: 50px;
-    margin-right: 40px;
-    background-color:transparent;
-    cursor: pointer;
-    border-color:transparent;
-    border-radius: 5px;
+    .seccion1 {
+        width: 100%;
+        margin-bottom: 30px;
     }
-   
 
+    .seccion2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(53, 129, 243);
-    padding: 5px 150px;
-    gap: 100px;
-}
-
-.nav-head{
-    display: flex;
-    gap: 60px;
-   
-    
+    .seccion3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 
-.caja{ 
-    width: 200px;
-    height: 200px;
-    background-color: #207cce;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 30px;
-    text-align: center;
-    gap: 20px;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    padding: 30px;
-    align-items: center;
-   
- }
 
- .caja2{
-    width: 415px;
-    height: 415px;
-    background-color: #207cce;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 30px;
-    text-align: center;
-    gap: 20px;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
- }
 
- .formulario label{
-    align-items: center;
-    font-size: 12px;
-    text-align: center;
-   
-    
- }
 
- .caja input{
-    margin-top: 15px;
- }
-
- .formulario input{
-    border-radius: 5px;
-    margin-top: 10px;
- }
-
-.imgarg{
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.imgcari{
-    width: 90%;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-.imagencataratas{
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 30px;
-}
-main{
-    display: flex;
-
-}
-
-.seccion1{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 10px;
-    
-
-}
-
-.seccion2{
-    margin: 10px;
-}
- .coti{
-    width: 250px;
-    height: 30px;
-    background-color: rgba(6, 6, 148, 0.772);
-    color: white;
-    margin-top: 25px;
-    border-radius: 5px;
- }
-
- .user{
-    width: 130px;
-    height: 30px;
-    background-color: rgba(197, 197, 225, 0.845);
-    color: white;
-    margin-top: 25px;
-    border-radius: 5px;
-    transition: all .5s ease;
-    text-align: center;
- }
-
- .contra{
-    width: 130px;
-    height: 30px;
-    background-color: rgba(197, 197, 225, 0.845);
-    color: white;
-    margin-top: 25px;
-    border-radius: 5px;
-    transition: all .5s ease;
-    text-align: center;
-
- }
-
- .ingresar{
-    width: 130px;
-    height: 30px;
-    background-color: rgba(6, 6, 148, 0.772);
-    color: white;
-    margin-top: 25px;
-    border-radius: 5px;
- }
-
- .logo{
-    width: 130px;
-    height: 130px;
-    border-radius: 5px;
-     }
-
-.paquete{
-    margin-top: 30px;
-}
 
  
